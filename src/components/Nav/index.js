@@ -18,7 +18,7 @@ const Nav = () => {
   return (
     <div className="nav">
       {navItems.map((item) => (
-        <p className="navItem">{item.name}</p>
+        <a className="navItem">{item.name}</a>
       ))}
     </div>
   );

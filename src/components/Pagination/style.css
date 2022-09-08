@@ -1,6 +1,6 @@
 .pagination {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   height: 32px;
   border-top: 1px solid rgba(0, 0, 0, 0.05);

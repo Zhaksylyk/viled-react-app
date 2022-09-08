@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import BreadCrumb from "./components/BreadCrumb";
 import Title from "./components/Title";
 import Sort from "./components/Sort";
-import Pagination from "./components/Pagination";
+import PaginationBlock from "./components/Pagination";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 
@@ -39,7 +39,7 @@ const App = () => {
             <Content />
           </Grid>
           <Grid item md={12} lg={12}>
-            <Pagination />
+            <PaginationBlock />
           </Grid>
           <Grid item md={12} lg={12}>
             <Footer />
