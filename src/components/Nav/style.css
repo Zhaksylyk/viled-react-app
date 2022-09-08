@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  justify-content: center;
+}
+
+.navItem {
+  padding: 0 16px 0 16px;
+}
